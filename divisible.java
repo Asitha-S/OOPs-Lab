@@ -14,3 +14,4 @@ public class divisible{
 			System.out.println(a+" is not divisible by "+b);}
 }
 }
+ 
