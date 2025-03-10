@@ -14,3 +14,4 @@ public class checkprime{
 		else{
 			System.out.println(a+" is not a prime number");}
 }}
+ 
