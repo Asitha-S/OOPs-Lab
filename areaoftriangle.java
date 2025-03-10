@@ -12,3 +12,4 @@ public class areaoftriangle {
 		System.out.println("The area of the triangle is " + c);
 }
 }
+ 
