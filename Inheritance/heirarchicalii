@@ -1,0 +1,31 @@
+class Person { 
+    void greet() { 
+        System.out.println("Hello! I am a person.");  
+ 
+    } 
+} 
+  
+class Teacher extends Person { 
+    void teach() { 
+        System.out.println("I teach students."); 
+    } 
+} 
+  
+class Student extends Person { 
+    void study() { 
+        System.out.println("I study subjects."); 
+    } 
+} 
+  
+public class heirarchicalii { 
+    public static void main(String[] args) { 
+        Teacher t = new Teacher(); 
+        t.greet(); 
+        t.teach(); 
+  
+        Student s = new Student(); 
+        s.greet(); 
+ 
+        s.study(); 
+    } 
+}
