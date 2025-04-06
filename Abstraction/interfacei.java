@@ -1,15 +1,14 @@
-abstract class Shape { 
-    abstract void draw(); 
-}   
-class Circle extends Shape { 
-    void draw() { 
-        System.out.println("Drawing a Circle"); 
-    } 
-} 
-  
-public class interfacei { 
-    public static void main(String[] args) { 
-        Shape s = new Circle();  // Polymorphism 
-        s.draw(); 
-    } 
-} 
+interface Greet {
+    void sayHello();
+}
+
+class interfacei implements Greet {
+    public void sayHello() {
+        System.out.println("Hello from Interface!");
+    }
+
+    public static void main(String[] args) {
+        HelloWorld obj = new HelloWorld();
+        obj.sayHello();
+    }
+}
