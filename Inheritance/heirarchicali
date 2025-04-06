@@ -1,0 +1,22 @@
+class Shape {  
+void display() {  
+System.out.println("This is a shape."); } } 
+class Circle extends Shape {  
+void area(double radius) {  
+double area = 3.14 * radius * radius;  
+System.out.println("Area of Circle: " + area); } } 
+class Rectangle extends Shape {  
+void area(double length, double width) {  
+double area = length * width;  
+System.out.println("Area of Rectangle: " + area); } } 
+public class heirarchicali {  
+public static void main(String[] args) {   
+ 
+Circle c = new Circle();  
+c.display(); c.area(5); 
+   Rectangle r = new Rectangle(); 
+    r.display(); 
+    r.area(4, 6); 
+} 
+  
+} 
